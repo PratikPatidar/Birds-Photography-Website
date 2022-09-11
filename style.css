@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Permanent+Marker&family=Rubik+Dirt&family=Silkscreen&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    background-color: #d9b8a3;
+    padding-top: .1rem;
+}
+
+.logo img {
+    height: 38px;
+    width: 37px;
+    margin: 0px 6px;
+    border: 2px solid black;
+    border-radius: 89px;
+}
+
+#nav {
+    display: flex;
+    font-family: 'DynaPuff', cursive;
+    background-color: aqua;
+}
+
+
+#nav ul {
+    display: flex;
+}
+
+#nav ul li {
+    list-style: none;
+    margin: 0.7rem 0;
+}
+
+#nav ul li a {
+    font-size: 0.9rem;
+    margin: 4px 4px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 6px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.login {
+    font-family: 'DynaPuff', cursive;
+    color: rgb(235, 234, 229);
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
+    padding: 4px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 6px;
+    float: right;
+    clear: both;
+    position: absolute;
+    right: 3rem;
+    clear: right;
+}
+
+.login:hover {
+    background-color: rgb(226, 220, 220);
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.signup {
+    font-family: 'DynaPuff', cursive;
+    clear: right;
+    color: rgb(227, 227, 219);
+    margin: .5rem 1rem;
+    padding: 4px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 6px;
+    float: right;
+    position: absolute;
+    right: -4px;
+}
+
+.signup:hover {
+    background-color: rgb(227, 227, 232);
+    color: rgb(9, 9, 9);
+}
+
+.maincontent {
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    justify-content: center;
+}
+
+.head {
+    font-size: 230%;
+    margin: 0.3rem;
+    padding: .5rem;
+    font-family: 'DynaPuff', cursive;
+}
+
+#headpara {
+    margin: 1.1rem;
+}
+
+#photographer {
+    padding-left: 3rem;
+    font-family: 'Silkscreen', cursive;
+}
+
+#img1 {
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+}
+
+.images {
+    margin-top: .2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.box {
+    max-width: 30%;
+    max-height: 56%;
+    margin: 0rem 2rem;
+}
+
+.allimages {
+    width: 100%;
+    height: 7rem;
+}
+
+footer {
+    text-align: center;
+    color: wheat;
+    background-color: black;
+}
+
+.head2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    background-color: rgb(18, 19, 19);
+    color: rgb(236, 240, 232);
+    font-family: 'DynaPuff', cursive;
+}
+
+.content-para-head {
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    display: block;
+}
+
+#content-para {
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    margin: 1rem;
+}
+
+.equipments {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.head-equipments {
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.head-equipments-para {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.heads-equipments {
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    border-bottom: 2px solid red;
+}
+
+.tips {
+    background-color: rgb(251, 251, 251);
+    padding: 1rem;
+}
+
+.tips-head {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.tips-head-para {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.tips-lists {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    list-style: inside;
+}
+
+.tips-list-para {
+    padding: 1rem;
+    padding-left: 4rem;
+}
+
+.hamburg {
+    color: blue;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+    border: 2px solid firebrick;
+    display: none;
+}
+
+@media only screen and (max-width: 570px) {
+
+    body {
+        width: fit-content;
+    }
+
+    #nav {
+        transition: all 0.3s ease-out;
+        width: fit-content;
+        background: none;
+    }
+
+    .visibality-class {
+        opacity: 0;
+    }
+
+    #nav ul {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0 112%;
+    }
+
+    .h-nav {
+        height: 2.7rem;
+        width: 100%;
+    }
+
+    .visibality-class {
+        opacity: 0;
+    }
+
+    .hamburg {
+        display: inline;
+        position: absolute;
+        cursor: pointer;
+        top: 0.5rem;
+        left: 4rem;
+        border: none;
+        background: none;
+    }
+
+    .login {
+        position: fixed;
+    }
+
+    .signup {
+        position: fixed;
+    }
+}
